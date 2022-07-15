@@ -1,151 +1,7 @@
----
-layout: default
----
-
-<div class="row">
- {% capture x %}
-  * [Hao Ni]()
-  * [Hang Lou]()
-  * [Baoren Xiao]()
-  * [Jiajie Tao]()
- {% endcapture %}{{ x | markdownify }}
- </div>
-
-<div class="row">
-  <span class="selector">
-    <span>Select Purpose: </span>
-    <select id="purposeselection" class="selectpicker" multiple data-live-search="true">
-      <option>Methodology</option>
-<option>Application</option>、
-<option>Model assessment</option>
-    </select>
-  </span>
-  <span class="selector">
-    <span>Select Authors: </span>
-    <select id="authorselection" class="selectpicker" multiple data-live-search="true">
-<option>Abhyuday Desai</option>
-<option>Ahmed M. Alaa</option>
-<option>Akos Vetek</option>
-<option>Alankar Jain</option>
-<option>Alex James Chan</option>
-<option>Anne Hee Hiong Ngu</option>
-<option>Antonio Rosolia</option>
-<option>Baoren Xiao</option>
-<option>Beatrice Acciaio</option>
-<option>Benjamin Schanzel</option>
-<option>Bo Jiang</option>
-<option>Bohlke-Schneider Michael</option>
-<option>Boris van Breugel</option>
-<option>Carl Remlinger</option>
-<option>Chang Liu</option>
-<option>Charles Kamhoua</option>
-<option>Chen Wang</option>
-<option>Cho-Yu Jason Chiang</option>
-<option>Cristóbal Esteban</option>
-<option>Cynthia Freeman</option>
-<option>Daniel Jarrett</option>
-<option>Derek Snow</option>
-<option>Dong Wook Shu</option>
-<option>Dongsheng Li</option>
-<option>Eoin Brophy</option>
-<option>Evgeny Saveliev</option>
-<option>Flunkert Valentin</option>
-<option>Gasthaus Jan</option>
-<option>Giulia Fanti</option>
-<option>Guangyu Li</option>
-<option>Gunnar Rätsch</option>
-<option>Hao Ni</option>
-<option>Hengzhi Pei</option>
-<option>Hiba Arnout</option>
-<option>Huangyingrui Wang</option>
-<option>Ian Beaver</option>
-<option>Ioana Bica</option>
-<option>Januschowski Tim</option>
-<option>Jeha Paul</option>
-<option>Jeremy E.J. Cohen</option>
-<option>Jinsung Yoon</option>
-<option>Johanna Bronner</option>
-<option>Jörg Domaschka</option>
-<option>Joseph Mikael</option>
-<option>Juha Karhunen</option>
-<option>Junseok Kwon</option>
-<option>Kan Ren</option>
-<option>Kani Chen</option>
-<option>Kapoor Shubham</option>
-<option>Kevin Chan</option>
-<option>Kumiko Tanaka-Ishii</option>
-<option>Lars Kegel</option>
-<option>Leo Kärkkäinen</option>
-<option>Li K. Wenliang</option>
-<option>Lukasz Szpruch</option>
-<option>M. Hahmann</option>
-<option>Magnus Wiese</option>
-<option>Marc Sabate-Vidales</option>
-<option>Mark Leznik</option>
-<option>Mathias Berglund</option>
-<option>Mengqi Liu</option>
-<option>Mengyue Zha</option>
-<option>Mercado Pedro</option>
-<option>Michael Munn</option>
-<option>Mihaela van der Schaar</option>
-<option>Mikko Honkala</option>
-<option>Nandi Leslie</option>
-<option>Padmanaba Srinivasan</option>
-<option>Patrick Michalsky</option>
-<option>Per-Olov Östberg</option>
-<option>Peter Kretschmer</option>
-<option>Peter Willis</option>
-<option>Ralf Korn</option>
-<option>Robert Knobloch</option>
-<option>Romuald Elie</option>
-<option>Sanjay Purushotham</option>
-<option>Shujian Liao</option>
-<option>Shuntaro Takahashi</option>
-<option>Singh Nirwan Rajbir</option>
-<option>SiuTim Wong</option>
-<option>Stephanie L. Hyland</option>
-<option>Sung Woo Park</option>
-<option>Tao Qin</option>
-<option>Tapani Raiko</option>
-<option>Thomas Runkler</option>
-<option>Tianlin Xu</option>
-<option>Todd Huster</option>
-<option>Tomas E. Ward</option>
-<option>Tong Zhang</option>
-<option>Vangelis Metsis</option>
-<option>Vyas Sekar</option>
-<option>William J. Knottenbelt</option>
-<option>Wolfgang Lehner</option>
-<option>Xiaomin Li</option>
-<option>Yan Liu</option>
-<option>Yu Chen</option>
-<option>Yuqing Yang</option>
-<option>Zhengping Che</option>
-<option>Zhengwei Wang</option>
-<option>Zinan Lin</option>
-<option>Zuhui Wang</option>
-
-    </select>
-  </span>
-  <div class="selector">
-    <span>Select Year: </span>
-    <select id="yearselection" class="selectpicker" multiple data-live-search="true">
-      <option>2015</option>
-<option>2019</option>
-<option>2020</option>
-<option>2021</option>
-<option>2022</option>
-    </select>
-  </div>
-</div>
-
 
 {% assign id = 0 %}
  <hr/>
-
-
-
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -156,7 +12,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 28,03,2022</span>    
+         <span class="dates"> 44648</span>    
          <span class="authors"> Jeha Paul, Bohlke-Schneider Michael, Mercado Pedro, Kapoor Shubham, Singh Nirwan Rajbir, Flunkert Valentin, Gasthaus Jan, Januschowski Tim </span>
 		</div>  
 </div>
@@ -169,7 +25,7 @@ layout: default
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -179,10 +35,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -193,7 +49,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 1 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -204,7 +62,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 08,12,2019</span>    
+         <span class="dates"> 43807</span>    
          <span class="authors"> Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar </span>
 		</div>  
 </div>
@@ -227,10 +85,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -241,7 +99,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 2 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -252,7 +112,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 01,11,2021</span>    
+         <span class="dates"> 44501</span>    
          <span class="authors"> Hao Ni, Lukasz Szpruch, Marc Sabate-Vidales, Baoren Xiao, Magnus Wiese, Shujian Liao </span>
 		</div>  
 </div>
@@ -265,7 +125,7 @@ layout: default
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		<a href="https://github.com/SigCGANs/Sig-Wasserstein-GANs" target="_blank" class="btn btn-info" role="button"> Code </a>
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -275,10 +135,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -289,7 +149,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 3 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -300,7 +162,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 01,08,2019</span>    
+         <span class="dates"> 43678</span>    
          <span class="authors"> Shuntaro Takahashi, Yu Chen, Kumiko Tanaka-Ishii </span>
 		</div>  
 </div>
@@ -313,7 +175,7 @@ layout: default
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -323,10 +185,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Application   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Application</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -337,7 +199,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 4 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -348,7 +212,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 16,11,2021</span>    
+         <span class="dates"> 44516</span>    
          <span class="authors"> Hengzhi Pei, Kan Ren, Yuqing Yang, Chang Liu, Tao Qin, Dongsheng Li </span>
 		</div>  
 </div>
@@ -371,10 +235,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Application   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Application</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -385,7 +249,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 5 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -396,7 +262,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 06,12,2021</span>    
+         <span class="dates"> 44536</span>    
          <span class="authors"> Daniel Jarrett, Ioana Bica, Mihaela van der Schaar </span>
 		</div>  
 </div>
@@ -409,7 +275,7 @@ layout: default
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -419,10 +285,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -433,7 +299,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 6 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -444,7 +312,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 10,07,2018</span>    
+         <span class="dates"> 43291</span>    
          <span class="authors"> Zhengping Che, Sanjay Purushotham, Guangyu Li, Bo Jiang, Yan Liu </span>
 		</div>  
 </div>
@@ -457,7 +325,7 @@ layout: default
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -467,10 +335,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -481,7 +349,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 7 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -492,7 +362,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 02,11,2015</span>    
+         <span class="dates"> 42310</span>    
          <span class="authors"> Mathias Berglund, Tapani Raiko, Mikko Honkala, Leo Kärkkäinen, Akos Vetek, Juha Karhunen </span>
 		</div>  
 </div>
@@ -505,7 +375,7 @@ layout: default
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -515,10 +385,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -529,7 +399,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 8 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -540,7 +412,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 21,10,2020</span>    
+         <span class="dates"> 44125</span>    
          <span class="authors"> Tianlin Xu, Li K. Wenliang, Michael Munn, Beatrice Acciaio </span>
 		</div>  
 </div>
@@ -563,10 +435,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -577,7 +449,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 9 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -588,7 +462,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 19,04,2021</span>    
+         <span class="dates"> 44305</span>    
          <span class="authors"> Mark Leznik, Patrick Michalsky, Peter Willis, Benjamin Schanzel, Per-Olov Östberg, Jörg Domaschka </span>
 		</div>  
 </div>
@@ -601,7 +475,7 @@ layout: default
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -611,10 +485,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Application   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Sanity check</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -625,7 +499,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 10 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -636,7 +512,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 22,01,2021</span>    
+         <span class="dates"> 44218</span>    
          <span class="authors"> Todd Huster, Jeremy E.J. Cohen, Zinan Lin, Kevin Chan, Charles Kamhoua, Nandi Leslie, Cho-Yu Jason Chiang, Vyas Sekar </span>
 		</div>  
 </div>
@@ -659,10 +535,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> </span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -673,7 +549,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 11 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -684,7 +562,7 @@ layout: default
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 18,03,2021</span>    
+         <span class="dates"> 44273</span>    
          <span class="authors"> Ahmed M. Alaa, Alex James Chan, Mihaela van der Schaar </span>
 		</div>  
 </div>
@@ -707,10 +585,10 @@ layout: default
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -721,7 +599,9 @@ layout: default
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 12 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -733,7 +613,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 17,02,2021</span>    
+         <span class="dates"> 44244</span>    
          <span class="authors"> Ahmed M. Alaa, Boris van Breugel, Evgeny Saveliev, Mihaela van der Schaar </span>
 		</div>  
 </div>
@@ -746,7 +626,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -756,10 +636,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Model assessment   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Model assessment</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -770,7 +650,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 13 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -781,7 +663,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 04,12,2017</span>    
+         <span class="dates"> 43073</span>    
          <span class="authors"> Cristóbal Esteban, Stephanie L. Hyland, Gunnar Rätsch </span>
 		</div>  
 </div>
@@ -804,10 +686,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Application   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Application</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -818,7 +700,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 14 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -829,7 +713,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 07,12,2021</span>    
+         <span class="dates"> 44537</span>    
          <span class="authors"> Abhyuday Desai, Cynthia Freeman, Zuhui Wang, Ian Beaver </span>
 		</div>  
 </div>
@@ -852,10 +736,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> </span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -866,7 +750,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 15 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -877,7 +763,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 06,10,2021</span>    
+         <span class="dates"> 44475</span>    
          <span class="authors"> Carl Remlinger, Joseph Mikael, Romuald Elie </span>
 		</div>  
 </div>
@@ -890,7 +776,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -900,10 +786,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -914,7 +800,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 16 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -925,7 +813,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 23,05,2022</span>    
+         <span class="dates"> 44704</span>    
          <span class="authors"> Padmanaba Srinivasan, William J. Knottenbelt </span>
 		</div>  
 </div>
@@ -938,7 +826,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -948,10 +836,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -962,7 +850,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 17 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -973,7 +863,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 18,07,2021</span>    
+         <span class="dates"> 44395</span>    
          <span class="authors"> Sung Woo Park, Dong Wook Shu, Junseok Kwon </span>
 		</div>  
 </div>
@@ -986,7 +876,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -996,10 +886,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1010,7 +900,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 18 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1021,7 +913,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 18,07,2021</span>    
+         <span class="dates"> 44395</span>    
          <span class="authors"> Antonio Rosolia </span>
 		</div>  
 </div>
@@ -1034,7 +926,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -1044,10 +936,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Application   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Application</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1058,7 +950,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 19 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1069,7 +963,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 06,04,2020</span>    
+         <span class="dates"> 43927</span>    
          <span class="authors"> Magnus Wiese, Robert Knobloch, Ralf Korn, Peter Kretschmer </span>
 		</div>  
 </div>
@@ -1082,7 +976,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -1092,10 +986,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1106,7 +1000,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 20 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1117,7 +1013,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 30,05,2017</span>    
+         <span class="dates"> 42885</span>    
          <span class="authors"> Lars Kegel, M. Hahmann, Wolfgang Lehner </span>
 		</div>  
 </div>
@@ -1130,7 +1026,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -1140,10 +1036,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1154,7 +1050,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 21 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1165,7 +1063,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 19,05,2022</span>    
+         <span class="dates"> 44700</span>    
          <span class="authors"> Mengyue Zha, SiuTim Wong, Mengqi Liu, Tong Zhang, Kani Chen </span>
 		</div>  
 </div>
@@ -1178,7 +1076,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -1188,10 +1086,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1202,7 +1100,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 22 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1213,7 +1113,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 29,10,2019</span>    
+         <span class="dates"> 43767</span>    
          <span class="authors"> Eoin Brophy, Zhengwei Wang, Tomas E. Ward </span>
 		</div>  
 </div>
@@ -1226,7 +1126,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -1236,10 +1136,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1250,7 +1150,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 23 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1261,7 +1163,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 06,10,2021</span>    
+         <span class="dates"> 44475</span>    
          <span class="authors"> Hiba Arnout, Johanna Bronner, Thomas Runkler </span>
 		</div>  
 </div>
@@ -1274,7 +1176,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -1284,10 +1186,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Model Assessment   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Model Assessment</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1298,7 +1200,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 24 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1309,7 +1213,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 27,10,2020</span>    
+         <span class="dates"> 44131</span>    
          <span class="authors"> Zinan Lin, Alankar Jain, Chen Wang, Giulia Fanti, Vyas Sekar </span>
 		</div>  
 </div>
@@ -1332,10 +1236,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1346,7 +1250,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 25 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1357,7 +1263,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 04,05,2021</span>    
+         <span class="dates"> 44320</span>    
          <span class="authors"> Hiba Arnout, Johanna Bronner, Thomas Runkler </span>
 		</div>  
 </div>
@@ -1370,7 +1276,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 		</div>  
 		<div id="bloc3">		    
 		<p>
-		
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
 		</p>    
 		</div>  
 	    </div>
@@ -1380,10 +1286,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1394,7 +1300,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 26 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1405,7 +1313,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 26,06,2020</span>    
+         <span class="dates"> 44008</span>    
          <span class="authors"> Derek Snow </span>
 		</div>  
 </div>
@@ -1428,10 +1336,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1442,7 +1350,9 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 27 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
@@ -1453,7 +1363,7 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 
 <div id="block_container">
 		<div id="bloc2">
-         <span class="dates"> 26,06,2022</span>    
+         <span class="dates"> 44738</span>    
          <span class="authors"> Xiaomin Li, Vangelis Metsis, Huangyingrui Wang, Anne Hee Hiong Ngu </span>
 		</div>  
 </div>
@@ -1476,10 +1386,10 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 	  <div class="column1" >
 	  </div>
 	  <div class="column2">
-        	   <div class="tags">
-		 		         Methodology   
-		       </div> 
-
+		<div id="bloc2">
+         <span class="purpose"> Methodology</span>    
+		</div> 
+		  
 	  </div>
 	</div>
 
@@ -1490,75 +1400,53 @@ Sample-Level Metrics For Evaluating And Auditing Generative Models
 </div>
 </div>
 <!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = 28 %}
+ <hr/>
+ <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
+{% assign id = id | plus:1 %}
+<div class="entry">
+	<div class="row">
+	  <div class="column1" >
+{% capture x %}
+## 
+{% endcapture %}{{ x | markdownify }}
 
-<script src="https://utteranc.es/client.js"
-        repo="DeepIntoStreams/Time-Series-Generative-Models.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
-
+<div id="block_container">
+		<div id="bloc2">
+         <span class="dates"> </span>    
+         <span class="authors">  </span>
+		</div>  
 </div>
 
-<script>
+	  </div>
+	  <div class="column2" >
+	    <div id="block_container">
+		<div id="bloc2">
+		<a href="" target="_blank" class="btn btn-info" role="button"> Paper </a>
+		</div>  
+		<div id="bloc3">		    
+		<p>
+		<a href="" target="_blank" class="btn btn-info" role="button"> Code </a>
+		</p>    
+		</div>  
+	    </div>
+	  </div>
+	  </div>
+	<div class="row">
+	  <div class="column1" >
+	  </div>
+	  <div class="column2">
+		<div id="bloc2">
+         <span class="purpose"> </span>    
+		</div> 
+		  
+	  </div>
+	</div>
 
-$('#yearselection').change(function (e) {
-   	var items = document.getElementsByClassName('entry');
-	var tags_selected = $(this).val();
-   	for (let i = 0; i < items.length; i++) {
-	     var tag_items = items[i].getElementsByClassName("dates")[0];
-	     var year_tag = tag_items.textContent.trim().split(',')[2]; 
-       console.log(year_tag);
-      	const found = tags_selected.some(r=> year_tag.includes(r));
-	      if (found || tags_selected.length === 0) {
-		items[i].style.display  = 'unset';
-	      }
-		else {
-		items[i].style.display  = 'none';
-		}
-	    }
-})
-
-
-$('#authorselection').change(function (e) {
-   	var items = document.getElementsByClassName('entry');
-	var tags_selected = $(this).val();
-   	for (let i = 0; i < items.length; i++) {
-	     var tag_items = items[i].getElementsByClassName("authors")[0];
-	     var item_tags = tag_items.textContent.trim().split(','); 
-	     item_tags =  item_tags.map(v => v.replace("\n", '').replace("\t", '').trim());
-      	      const found = item_tags.some(r=> tags_selected.includes(r));
-	      if (found || tags_selected.length === 0) {
-		items[i].style.display  = 'unset';
-	      }
-		else {
-		items[i].style.display  = 'none';
-		}
-	    }
-})
-	
-$('#purposeselection').change(function (e) {
-   	var items = document.getElementsByClassName('entry');
-	var tags_selected = $(this).val();
-   	for (let i = 0; i < items.length; i++) {
-	     var tag_items = items[i].getElementsByClassName("tags")[0];
-	     var item_tags = tag_items.textContent.trim().split(','); 
-	     item_tags =  item_tags.map(v => v.replace("\n", '').replace("\t", '').trim());
-	      console.log("item tags");
-	      console.log(item_tags);
-      	      const found = item_tags.some(r=> tags_selected.includes(r));
-	      if (found || tags_selected.length === 0) {
-		items[i].style.display  = 'unset';
-	      }
-		else {
-		items[i].style.display  = 'none';
-		}
-	    }
-})
-</script>
+<div class="collapse" id="collapse{{ id }}">
+{% capture x %}
+ 
+{% endcapture %}{{ x | markdownify }}
+</div>
+</div>
+<!--EndPost--------------------------------------------------------------------------------------------------------------------------------------------->
