@@ -32,15 +32,17 @@ layout: default
     </select>
   </div>
 </div>
-
+{% assign id = 0 %}
+ <hr/>
 [model]
+
 <!--Post--------------------------------------------------------------------------------------------------------------------------------------------->
 {% assign id = id | plus:1 %}
 <div class="entry">
 	<div class="row">
 	  <div class="column1" >
 {% capture x %}
-[1]
+## [1]
 {% endcapture %}{{ x | markdownify }}
 
 <div id="block_container">
