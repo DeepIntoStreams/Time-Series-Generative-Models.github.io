@@ -28,7 +28,7 @@ layout: default
   <div class="selector">
     <span>Select Year: </span>
     <select id="yearselection" class="selectpicker" multiple data-live-search="true">
- [select][3][desc]
+ [select][3][year][desc]
     </select>
   </div>
 </div>
@@ -105,7 +105,7 @@ $('#yearselection').change(function (e) {
 	var tags_selected = $(this).val();
    	for (let i = 0; i < items.length; i++) {
 	     var tag_items = items[i].getElementsByClassName("dates")[0];
-	     var year_tag = tag_items.textContent.trim().split(',')[2]; 
+	     var year_tag = tag_items.textContent.trim().split('/')[0]; 
        console.log(year_tag);
       	const found = tags_selected.some(r=> year_tag.includes(r));
 	      if (found || tags_selected.length === 0) {
