@@ -3,6 +3,7 @@ The auto-generation of the required index.html is given as the following steps:
 - copy paste the code in indexmodel.html
 - upload Review papers.xlsx
 
+To make sure the date format is correct, please write the new date in the format of yyyy/mm/dd using text datatype provided in Excel. Then, transform it to date datatype in Excel.
 
 
 
